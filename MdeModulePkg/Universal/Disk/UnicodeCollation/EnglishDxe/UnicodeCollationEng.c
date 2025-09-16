@@ -96,6 +96,9 @@ InitializeUnicodeCollationEng (
   UINTN       Index;
   UINTN       Index2;
 
+  // Initialize Status to EFI_SUCCESS
+  Status = EFI_SUCCESS;
+
   //
   // Initialize mapping tables for the supported languages
   //
